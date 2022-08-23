@@ -5,6 +5,7 @@ package Entidades;
 
 
 public class Libros {
+
     private String titulo;
 
     public Libros() {
@@ -24,7 +25,7 @@ public class Libros {
 
     @Override
     public String toString() {
-        return "Libros{" + "titulo=" + titulo + '}';
+        return  "titulo= " + titulo;
     }
     
 }
